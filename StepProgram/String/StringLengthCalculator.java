@@ -26,12 +26,9 @@ public class StringLengthCalculator {
        
         int customLength = findLengthWithoutLengthMethod(input);
 
-        
-        int builtInLength = input.length();
-
        
         System.out.println("Length (custom method): " + customLength);
-        System.out.println("Length (built-in method): " + builtInLength);
+      
 
         scanner.close();
     }
